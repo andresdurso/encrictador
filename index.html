@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <title>♦ Encrictador ♦</title>
     </head>
     <body>
         <header>
             <img src="imagenes/Logo.png" alt="Logo Alura letra a">
-
         </header>
         <main>
             <section class="seccion1">
                 <textarea class="area" placeholder="ingrese el texto aqui"></textarea>
-          
+               
+                <div class="contenedor-botones">
+
+                    <input type="button" class="btn-encriptar" value="encriptar">
+                    <input type="button" class="btn-desencriptar" value="desencriptar">
+                </div>
             </section>
 
             <section class="seccion2">
-                <DIV class="contenedor-munieco">
+                <DIV class="contenedor-munieco ocultar">
                     <img src="imagenes/muneco.png" alt="imagen munieco">
                 </DIV>
-                <div class="contenedor-h3">
+                    <div class="contenedor-h3 ocultar">
                     <h3>Ningun mensaje fue encontrado.</h3>
-                <div class="contenedor-parafo">
+                    </div>
+                    <div class="contenedor-parafo ocultar">
                     <p>ingresa el texto que deceas encriptar o desencriptar.</p>
-                </div>
+                    </div>
+
+                    <div class="contenedor-resultado">
+                        <h3>Mensaje encriptado</h3>
+                        <p></p>
+                    </div>
+                    <div class="contenedor-copiar">
+                        <input type="button" class="btn-copiar" value="cipiar">
+                    </div>
             </section>
         </main>
         <footer>
-            
+            andres durso 
         </footer>
-
+        <script src="scrip.js"></script>
     </body>
-
 </html>
